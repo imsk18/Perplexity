@@ -53,7 +53,7 @@ const Login = () => {
     
      if(!loading && user){
         console.log("USER LOGGED IN → REDIRECT");
-        return <Navigate to="/" replace />
+        return <Navigate to ="/" replace />
       }
 
     
